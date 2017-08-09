@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SLView">
+        <attr name="style" format="string|reference"/>
+        <attr name="backgroudColor" format="color|reference"/>
+        <attr name="ballColor" format="color|reference"/>
+    </declare-styleable>
+</resources>

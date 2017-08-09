@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SLview</string>
+    <string name="style_rotatingCircle">rotatingCircle</string>
+    <string name="style_movingRectangle">movingRectangle</string>
+    <string name="style_3DRotatingRectangle">3DRotatingRectangle</string>
+</resources>

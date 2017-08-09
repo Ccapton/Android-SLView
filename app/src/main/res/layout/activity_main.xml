@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    tools:context="com.capton.slviewdemo.MainActivity">
+
+     <LinearLayout
+         android:id="@+id/container"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:gravity="center_horizontal"
+         android:orientation="vertical">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:text="Xml代码生成"
+              android:textColor="@color/colorPrimary"
+              android:textSize="16sp" />
+
+          <com.capton.sl.SLView
+              android:id="@+id/slview"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+          </com.capton.sl.SLView>
+
+          <com.capton.sl.SLView
+              android:id="@+id/slview2"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:layout_marginBottom="@dimen/activity_horizontal_margin"
+              app:style="@string/style_movingRectangle">
+
+          </com.capton.sl.SLView>
+
+          <com.capton.sl.SLView
+              android:id="@+id/slview3"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:layout_marginBottom="@dimen/activity_horizontal_margin"
+              app:style="@string/style_3DRotatingRectangle">
+
+          </com.capton.sl.SLView>
+     </LinearLayout>
+
+     <LinearLayout
+         android:id="@+id/container2"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:orientation="vertical">
+
+     </LinearLayout>
+</LinearLayout>
