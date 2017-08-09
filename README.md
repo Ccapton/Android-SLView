@@ -1,6 +1,8 @@
 # Android-SLView
 几个简单的动画，后续会有补充修改
 
+SLViewDemo.apk : https://raw.githubusercontent.com/Ccapton/Android-SLView/master/SLViewDemo.apk
+
 ![](https://raw.githubusercontent.com/Ccapton/Android-SLView/master/SLView.gif)
 
 ### 如何配置
